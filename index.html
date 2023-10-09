@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="stylesls.css">
+    <title>GamersHub</title>
+    <script src="auth.js"></script>
+    
+</head>
+<body>
+    
+    <div class="body0">
+      
+    
+        <div class="nav0" id="navbar">
+            
+            <h1>Gamers<span>Hub</span></h1>
+            <div class="txt">
+            <i class='bx bx-tv' id="tv"></i>
+            <i class='bx bxl-flask' id="flask" ></i>
+             
+        
+        </div>
+            <ul><i class='bx bx-search-alt-2' id="glass"></i>
+             
+                <li><input type="search" id="searchInput" placeholder="Search..."></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Store">Custom-Made</a></li>
+                <li><a href="#Designs">Designs</a></li>
+                <li><button id="wishlisttt" onclick="clickFunction()">Wishlist</button><i class='bx bx-heart' id="heart" ></i></li>
+                <li><button id="profF"onclick="profileFunction()"><i class='bx bx-user-circle'></i></button></li>
+                <li><i class='bx bxs-invader' id="inv" ></i></li>
+            </ul>
+        </div>
+        
+        <div class="nav1" id="navbar1">
+            <ul>
+                <li><button id="cart5"onclick="cartFunction()"><i class='bx bx-cart'>Cart</i></button></li>
+              
+              
+                <li><h1>TOS</h1>
+                <p>Any product that has been shipped cannot be sent back and we DO Not provide refunds and we will not be  held responsible for any damage after purchase.</p></li>
+                <li><h2>Contacts </h2>
+                    <div class="I">
+                    <ul>
+                        <li><a href="#"><i class='bx bxl-discord-alt' ></i></a></li>
+                        <li><a href="#"><i class='bx bxl-meta' ></i></a></li>
+                        <li><a href="#"><i class='bx bxl-gmail' ></i></a></li>
+                        <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                    </ul>
+                    <li><h1 class="h1">You are Secured <i class='bx bxs-check-shield' id="shield" ></i></h1></li>
+            </ul>
+            
+        
+       
+        </div>
+        
+       <div class="body0c" id="Home">
+        <div class="featuredact">
+            <h1>Featured Product</h1>
+            <div class="boximg">
+                <img src="images3/geforce-rtx-4090-out-now-ogimage.jpg" class="flicker" alt="">
+                <div class="dialog">
+                    <h1>NVIDIA GeForce RTX 4090</h1>
+                    <h2>Experience <strong>Beyond Fast</strong> for Gamers</h2>
+                    <p>Get it now for:  ₱94,119.51</p>
+                    
+                    <button onclick="nvidiaFunction()">Check out<i class='bx bx-cart'></i></button>
+                </div>
+            </div>
+        </div>
+       </div>
+       <div class="tags">
+        <ul>
+     <li><button class="recom" onclick="recommendFunction()">Recommended</button></li>
+    </ul>
+       </div>
+       <div class="productscon">
+        <div class="prodctsbox">
+        <div class="productsbox1" >
+            
+            <img src="images3/razer-blackshark-v2-x-removebg-preview.png" alt="">
+            <div class="productsboxprice">
+                <h1>Razer BlackShark V2</h1>
+                <p>Price: ₱8,669.99</p>
+                <button class="add-to-cart"> <i class='bx bx-cart-add' id="cart9" ></i></button>
+            </div>
+        </div>
+        <div class="productsbox2">
+            <img src="images3/551c0e6809151d8f46f68c6f211bad62-removebg-preview.png" alt="">
+            <div class="productsboxprice">
+                <span>Red Dragon Kumara</span>
+                <p>Price: ₱3,525.67</p>
+                <button class="add-to-cart"> <i class='bx bx-cart-add' id="cart9" ></i></button>
+            </div>
+        </div>
+       
+        <div class="productsbox3">
+            <img src="images3/NAGA-TRINITY-3-removebg-preview.png" alt="">
+            <div class="productsboxprice">
+                <span>Red Dragon Kurama</span>
+                <p>Price:</p>
+                <button class="add-to-cart"> <i class='bx bx-cart-add' id="cart9" ></i></button>
+            </div>
+        </div>
+        <div class="productsbox4" data-id="1">
+            
+            <img src="images3/geforce-rtx-4090-out-now-ogimage-removebg-preview.png" alt="Item 1">
+            <div class="productsboxprice">
+                <span>Nvidia GeForce RTX 4080</span>
+        
+                <p>Price: ₱94,119.51</p>
+               <button class="add-to-cartt" onclick="nvidiaFunction()"> <i class='bx bx-cart-add' id="cart9" ></i></button>
+               
+            </div>
+        </div>
+        <div class="productsbox">
+            <img src="images3/551c0e6809151d8f46f68c6f211bad62-removebg-preview.png" alt="">
+            <div class="productsboxprice">
+                <h1>Red Dragon Kurama</h1>
+                <p>Price:</p>
+                <button class="add-to-cart"> <i class='bx bx-cart-add' id="cart9" ></i></button>
+            </div>
+        </div>
+        <div class="productsbox">
+            <img src="images3/551c0e6809151d8f46f68c6f211bad62-removebg-preview.png" alt="">
+            <div class="productsboxprice">
+                <h1>Red Dragon Kurama</h1>
+                <p>Price:</p>
+                <button class="add-to-cart"> <i class='bx bx-cart-add' id="cart9" ></i></button>
+            </div>
+        </div>
+        <div class="productsbox">
+            <img src="images3/551c0e6809151d8f46f68c6f211bad62-removebg-preview.png" alt="">
+            <div class="productsboxprice">
+                <h1>Red Dragon Kurama</h1>
+                <p>Price:</p>
+                <button class="add-to-cart"> <i class='bx bx-cart-add' id="cart9" ></i></button>
+               
+            </div>
+        </div>
+        <div class="productsbox">
+            <img src="images3/551c0e6809151d8f46f68c6f211bad62-removebg-preview.png" alt="">
+            <div class="productsboxprice">
+                <h1>Red Dragon Kurama</h1>
+                <p>Price:</p>
+                <button class="add-to-cart"> <i class='bx bx-cart-add' id="cart9" ></i></button>
+            </div>
+        </div>
+       </div>
+       
+       <div class="yourcart">
+        <div class="yourcartbox" id="yourCart0">
+            <h1>Your Cart</h1>
+            <ul id="cart-items"></ul>
+        </div>
+        <div class="profiletab">
+            <div class="profilecontent" id="profileTab">
+                <ul>
+            <button onclick="settingFunction()"><i class='bx bx-cog' ></i>Settings</button>
+                <button onclick="logout()" id="btnlog"><i class='bx bx-log-out'>LogOut</i></button>
+            </ul>
+            </div>
+        </div>
+        <div class="overlay" id="overlay"></div>
+       
+        <div id="wishlist" class="wwishlist">
+            <button id="wiscanBtn"onclick="wishCancel()">X</button>
+            
+            <h2>Wishlist <span id="wishlist-count">0</span></h2>
+            <ul id="wishlist-items"></ul>
+        </div>
+        
+        <div class="nvidiaBox">
+            <div class="nvidiaCart" id="nvidiaMax">
+                <div class="nvidiaPrice">
+                <h1>Nvidia GeForce RTX 4090</h1>
+                <p>Price: ₱94,119.51</p>
+                
+                <i class='bx bx-purchase-tag' id="tag" ></i>
+                
+                <button  id="closeBtn"onclick="closeButton()">Cancel</button>
+                <button class="add-to-cart">Add to Cart</button>
+                <div class="product">
+                    <h2></h2>
+                    
+                    <button id="addBtn"onclick="toggleWishlist('Nvidia GeForce RTX 4080 ', 'images3/1024.png', )">Add to Wishlist</button>
+                    <input type="number" min="1" value="1" class="quantity-input">
+
+
+
+                </div>
+            </div>
+                <p class="gpu">GPU</p>
+                <div id="image-container">
+                    <img src="images3/1024.png" alt="Image 1">
+                </div>
+            
+                <!-- Next button -->
+                <button id="nextButton"></button>
+              
+                
+              
+            
+            </div>
+        </div>
+    </div>
+    
+       <div class="fotter">
+        <div class="footerul">
+            <ul>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </div>
+       </div>
+  
+       <script src ="fuck.js.js"></script>
+</body>
+</html>
